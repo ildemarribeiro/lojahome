@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">/
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title>Home Adonai Bazar</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="#">Adonai</a>  <!-- "#" = significa ficar em branco -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavBar" aria-expanded="false"> <!--toggler = comprimivel -->
+                <span class="navbar-toggler-icon"></span> <!-- Navbar-toggler-icon = botão de expansão qdo no responsivo-->
+            </button>
+            <div  class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>  
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="institucional.html">Institucional</a>    <!--Criando um butão-->
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="atendimento.html">Atendimento</a>    <!--Criando um butão-->
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="politica.html">Política e Privacidade</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="cadastro.html">Cadastro</a>
+                    </li>
+                    <!--<li class="nav-item active">
+                        <a class="nav-item" href="cadastro.html">Cadastro</a>     (cria um menu tipo botão)-->
+                        <!-- <a class="nav-link disabled" href="#"> Disabilitado</a> = (disabilita o link) -->
+                    </li>
+                    <li class="nav-item dropdown"> <!--ao clicar aparece várias opções para o usuário -->
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown" data-toggle="dropdown" aria-hospopup="true"aria-expanded="false">Categorias</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown">
+                            <a class="dropdown-item" href="papelaria.html">Papelaria</a>
+                            <a class="dropdown-item" href="armarinho.html">Armarinho</a>
+                            <a class="dropdown-item" href="bazar.html">Bazar</a>
+                            <a class="dropdown-item" href="casa-decoracao.html">Casa e Decoração</a>
+                            <a class="dropdown-item" href="festas.html">Festas</a>
+                            <a class="dropdown-item" href="higiene-beleza.html">Higiêne e Beleza</a>
+                            <a class="dropdown-item" href="informatica.html">Informática</a>
+                            <a class="dropdown-item" href="servicos.html">Serviços</a>
+                            <div class="dropdown-divider"></div>  <!--Cria linha divisória no menu-->
+                            <a class="dropdown-item" href="https//rapidapi.com">Site de API</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Digite sua busca aqui..." aria-label="search">
+                    <buttom class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</buttom>
+                </form>
+            </div>
+        </nav>
+
+        <!--Corpo da aplicação daqui para baixo -->
+
+        <main>
+            <div class="jumbotron jumbotron-fluid">   <!-- jumbotron = classe para inserir textos,imagens etc..-->
+                <div class="container">
+                    <h1 class="dispay-4">Adonai Bazar e Papelaria</h1>
+                    <p>
+                        Estamos em fase de desenvolvimento do site... :)
+                    </p>
+                    <p>
+                        <a class="btn bt-primary btn-lg" href="#">Saiba mais ...</a>  <!--criou um butao-->
+                    </p>
+                </div>
+            
+            </div>
+
+            <!-- três colunas -->
+            <div class="container">  <!-- criou container -->
+                <div class="row">   <!-- criou uma linha -->
+                    <div class="col-md-4">    <!-- criou uma divisão de colunas - vide:layout de grid -->
+                        <h2>Papelaria</h2>
+                        <img src="imagens/caderno8.png" height="200px">
+                        <p>Caderno Univ. 15x1 Brasilidade - Und</p>
+                        </p> R$ 19,99</p>
+                        <p><a class="btn btn-secondary" href="venda.html">Comprar</a></p>
+                    </div>
+
+                    <div class="col-md-4">   
+                        <h2>Armarinho</h2>
+                        <img src="imagens/squish1.png" height="200px">
+                        <p>Squish Cores - Und</p>
+                        <p>R$ 9,99</p>
+                        <p><a class="btn btn-secondary" href="venda.html">Comprar</a></p>
+                    </div>
+
+                    <div class="col-md-4">   
+                        <h2>Informática</h2>
+                        <img src="imagens/midiaCD-1.png" height="200px">
+                        <p>Mídia cd Maxprint - Und</p>
+                        <p>R$ 4,99</p>
+                        <p><a class="btn btn-secondary" href="venda.html">Comprar</a></p>
+                    </div>
+                    <div class="col-md-4">    <!-- criou uma divisão de colunas - vide:layout de grid -->
+                        <h2>Papelaria</h2>
+                        <img src="imagens/caderno8.png" height="200px">
+                        <p>Caderno Univ. 15x1 Brasilidade - Und</p>
+                        </p> R$ 19,99</p>
+                        <p><a class="btn btn-secondary" href="venda.html">Comprar</a></p>
+                    </div>
+
+                    <div class="col-md-4">   
+                        <h2>Armarinho</h2>
+                        <img src="imagens/squish1.png" height="200px">
+                        <p>Squish Cores - Und</p>
+                        <p>R$ 9,99</p>
+                        <p><a class="btn btn-secondary" href="venda.html">Comprar</a></p>
+                    </div>
+
+                    <div class="col-md-4">   
+                        <h2>Informática</h2>
+                        <img src="imagens/midiaCD-1.png" height="200px">
+                        <p>Mídia cd Maxprint - Und</p>
+                        <p>R$ 4,99</p>
+                        <p><a class="btn btn-secondary" href="venda.html">Comprar</a></p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="container">  <!-- criou container -->
+                <div class="row">   <!-- criou uma linha -->
+                    <div class="col-md-4">    <!-- criou uma divisão de colunas - vide:layout de grid -->
+                        <h2>Higiêne e Beleza</h2>
+                        <img src="imagens/beleza1.jpg" height="200px">
+                        <p>Tintura koleston- Und</p>
+                        </p> R$ 14,99</p>
+                        <p><a class="btn btn-secondary" href="venda.html">Comprar</a></p>
+                    </div>
+
+                    <div class="col-md-4">   
+                        <h2>Serviços</h2>
+                        <img src="imagens/servico1.jpg" height="200px">
+                        <p>impressão - Und</p>
+                        <p>R$ 1,99</p>
+                        <p><a class="btn btn-secondary" href="venda.html">Comprar</a></p>
+                    </div>
+
+                    <div class="col-md-4">   
+                        <h2>Acessórios</h2>
+                        <img src="imagens/anel1.jpg" height="200px">
+                        <p>Anel de Banhado 14k - und</p>
+                        <p>R$ 9,99</p>
+                        <p><a class="btn btn-secondary" href="venda.html">Comprar</a></p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="jumbotron jumbotron-fluid">   <!-- jumbotron = classe para inserir textos,imagens etc..-->
+                <div class="container">
+                    <h1 class="dispay-2">RECEBA MAIS NOVIDADES E PROMOÇÕES</h1>
+                    <p>
+                        Estamos em fase de desenvolvimento do site... :)
+                    </p>
+                    <p>
+                        <a class="btn bt-primary btn-lg" href="#">Saiba mais ...</a>  <!--criou um butao-->
+                    </p>
+                </div>
+        </main>
+    </header>
+    <footer class="my-5 pt-1 text-muted text-center text-small">
+        <p class="mb-1">&copy; 2019–2023 ildemar ribeiro</p>
+        <p>Adonai Bazar e Papelaria</p>
+        <p>Rua Dona Maria, 555, Nova Iguaçu, RJ CEP 260123-123| Fale Conosco| adonaibazar@abcde.com.br</p>
+        <p>Formas de pagamento aceitas: cartões de crédito (Visa, MasterCard), cartões de débito (Visa e Maestro), Dinheiro em espécie e Pix.</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="politica.html">Termos</a></li>
+          <li class="list-inline-item"><a href="politica.html">Política</a></li>
+          <li class="list-inline-item"><a href="#">Suporte</a></li>
+        </ul>
+      </footer>
+</body>
+</html>
